@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import profilex from "../../public/profile.jpg";
+import profilex from "../../public/Profile.png";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -109,7 +109,6 @@ function Intro() {
         >
           <GithubIcon size={19} />
         </a>
-       
       </motion.div>
     </section>
   );
