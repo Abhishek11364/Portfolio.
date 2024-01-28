@@ -87,7 +87,7 @@ function Intro() {
 
         <a
           className="group bg-white  px-7 py-3 gap-2 flex items-center rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition borderBlack ml-2 dark:bg-white/10"
-          href="/Devansh_resume.pdf"
+          href="/Abhishek_Kushwaha.pdf"
           download
         >
           Download CV{" "}

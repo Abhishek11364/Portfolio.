@@ -11,9 +11,9 @@ import ThemeContextProvider from "./context/theme-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Devansh Jain | Portfolio",
+  title: "Abhishek Kushwaha | Portfolio",
   description:
-    "Devansh Jain is a ReactJS/NextJS developer with immense drive to learn new things",
+    "Abhishek Kushwaha is a ReactJS developer with immense drive to learn new things",
 };
 
 export default function RootLayout({
