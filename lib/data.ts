@@ -32,14 +32,14 @@ export const links = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Tasty Treat",
-    description:
-      "Developed a high-performance and responsive pizza ordering app, Payment gateway as Razopay",
-    tags: ["React", "React-Router", "Redux-Toolkit", "Javascript", "EmailJs"],
-    imageUrl: Taste,
-    link: "https://tasty-treat-five.vercel.app/",
+   {
+    title: "Code Deck",
+    description: "Developed a Code Editor app using React and Code Mirror",
+    tags: ["React","Code Mirror" , "Rapid API"],
+    imageUrl: Code,
+    link: "https://code-deck-eta.vercel.app/",
   },
+ 
   {
     title: "CoinChaser",
     description:
@@ -48,7 +48,14 @@ export const projectsData = [
     imageUrl: Coin,
     link: "https://coin-chaser-32y4.vercel.app/",
   },
-
+ {
+    title: "Tasty Treat",
+    description:
+      "Developed a high-performance and responsive pizza ordering app, Payment gateway as Razopay",
+    tags: ["React", "React-Router", "Redux-Toolkit", "Javascript", "EmailJs"],
+    imageUrl: Taste,
+    link: "https://tasty-treat-five.vercel.app/",
+  },
   {
     title: "ResumeForge",
     description: "Developed a Resume builder app using React and React-Router",
@@ -63,13 +70,7 @@ export const projectsData = [
     imageUrl: Project,
     link: "https://project-manager-dusky.vercel.app/",
   },
-    {
-    title: "Code Deck",
-    description: "Developed a Code Editor app using React and Code Mirror",
-    tags: ["React","Code Mirror" , "Rapid API"],
-    imageUrl: Code,
-    link: "https://code-deck-eta.vercel.app/",
-  },
+   
 ] as const;
 
 export const skillsData = [
