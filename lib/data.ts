@@ -4,6 +4,7 @@ import Taste from "@/public/Tasty Treat.png";
 import Coin from "@/public/CoinChaser.png";
 import Project from "@/public/Project Manager.png";
 import Resume from "@/public/ResumeBuilder.png";
+import Code from "@/public/CodeDeck.png";
 
 import { Cloud, Laptop2 } from "lucide-react";
 
@@ -61,6 +62,13 @@ export const projectsData = [
     tags: ["React", , "React-router"],
     imageUrl: Project,
     link: "https://project-manager-dusky.vercel.app/",
+  },
+    {
+    title: "Code Deck",
+    description: "Developed a Code Editor app using React and Code Mirror",
+    tags: ["React","Code Mirror" , "Rapid API"],
+    imageUrl: Code,
+    link: "https://code-deck-eta.vercel.app/",
   },
 ] as const;
 
